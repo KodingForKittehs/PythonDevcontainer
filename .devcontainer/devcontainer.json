@@ -3,9 +3,13 @@
     "build": {
         "dockerfile": "Dockerfile"
     },
-    "settings": {},
-    "extensions": [
-        "ms-python.python"
-    ],
+    "customizations": {
+        "vscode": {
+            "settings": {},
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
     "remoteUser": "user"
 }
